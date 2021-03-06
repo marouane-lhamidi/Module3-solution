@@ -1,0 +1,53 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+/*Header start*/
+
+
+
+/*Header end*/
+
+/*Body start*/
+
+
+
+
+/*Body end*/
+
+/*Footer start*/
+
+
+
+/*Footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media query*/
+
+@media(min-width: 1200px) {
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+@media(max-width: 767px) {
+
+
+}
+
+
+
