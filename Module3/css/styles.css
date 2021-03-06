@@ -3,23 +3,74 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 /*Header start*/
-
-
+.navbar {
+  background-color: gray !important;
+  border: 2px solid black;
+}
+.collapse > .navbar-nav > .nav-item:hover
+{
+  background-color: #1a1e21;
+}
+.collapse > .navbar-nav > .nav-item
+{
+  border-bottom:1px solid black ;
+}
+.collapse > .navbar-nav > .nav-item:nth-child(3)
+{
+  border-bottom:0;
+}
+.collapse > .navbar-nav > .nav-item a:hover
+{
+  color: white;
+}
 
 /*Header end*/
 
 /*Body start*/
+.Menu {
+  margin-top: 20px;
 
+}
+.sections > div {
+  background-color: gray;
+  margin: 10px;
+  position: relative;
+  padding: 50px 5px 5px 5px ;
+}
+.sections > div > h3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 35px;
+  border:1px solid black;
 
+}
+.sections1 > div > h3 {
+  background-color: #0a53be;
+}
+.sections2 > div > h3 {
+  background-color: #198754;
+}
+.sections3 > div > h3  {
+  background-color: #ffca2c;
+}
 
+.somme {
+  height: 100%;
+}
 
+[class*="col-"] {
+  border: 0;
+  background-color: transparent;
+}
+.sections  >.somme > a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+}
 /*Body end*/
 
-/*Footer start*/
-
-
-
-/*Footer end*/
 
 
 
@@ -45,7 +96,6 @@ body {
 
 }
 @media(max-width: 767px) {
-
 
 }
 
