@@ -43,7 +43,6 @@ body {
   right: 0;
   height: 35px;
   border:1px solid black;
-
 }
 .sections1 > div > h3 {
   background-color: #0a53be;
@@ -56,13 +55,9 @@ body {
 }
 
 .somme {
-  height: 100%;
+
 }
 
-[class*="col-"] {
-  border: 0;
-  background-color: transparent;
-}
 .sections  >.somme > a {
   position: absolute;
   bottom: 0;
